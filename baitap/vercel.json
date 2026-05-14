@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "functions": {
+    "pages/api/analyze.ts": {
+      "maxDuration": 60
+    }
+  },
+  "env": {
+    "ANTHROPIC_API_KEY": "@anthropic-api-key"
+  }
+}
